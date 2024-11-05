@@ -1,0 +1,6 @@
+config SIGFK
+    bool "sigfk: Disable module signature verification"
+    default y
+    help
+      This option enables the sigfk module, which disables module signature
+      verification and logs module activity to /sdcard.
